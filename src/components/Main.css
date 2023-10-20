@@ -1,0 +1,93 @@
+.about-container {
+  position: relative;
+  padding: 15px 0;
+  height: 70vh;
+}
+.about-title {
+  color: #321f51;
+}
+
+.about-highlight-text {
+  color: #d43725;
+  font-size: 1.4rem;
+}
+
+.about-profile-pic {
+  border-radius: 50%;
+  border-top: 2px solid black;
+  border-right: 3px dashed rgb(26, 25, 25);
+  /* z-index: -1; */
+}
+
+.about-short-info {
+  font-size: 17px;
+  font-weight: 600;
+}
+@media screen and (max-width: 599px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-profile-pic {
+    height: 300px;
+    width: 300px;
+    margin-top: 60px;
+  }
+}
+
+/* Mellanläge, ex. iPad */
+@media screen and (min-width: 600px) and (max-width: 830px) {
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px;
+    gap: 79px;
+  }
+
+  .about-profile-pic {
+    height: 340px;
+    width: 340px;
+  }
+}
+
+/* Mellanläge mellan iPad och Desktop */
+@media screen and (min-width: 831px) {
+  .about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+  }
+  .about-profile-pic {
+    height: 370px;
+    width: 370px;
+    margin-left: 30px;
+  }
+  .about-title {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+    font-size: 3rem;
+  }
+  .about-highlight-text {
+    margin-top: 5px;
+    margin-left: 100px;
+    font-size: 30px;
+  }
+}
+
+/* Desktop */
+/* @media screen and (min-width: 1025px) {
+  .about-container {
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+  .about-profile-pic {
+    height: 370px;
+    width: 370px;
+  }
+} */

@@ -1,0 +1,105 @@
+body {
+  font-family: "Arial", sans-serif; /* Set a general font for the whole page. */
+  /* height: 80vh; */
+}
+
+.outercard {
+  background-color: #f9f4f4; /* A lighter shade for contrast */
+  padding: 25px;
+  text-decoration: none;
+}
+
+.innercard {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  justify-content: center;
+  align-content: start;
+  grid-gap: 25px;
+  padding: 20px;
+}
+
+.project-cards {
+  border: 2px solid #e0e0e0; /* Lighter border for subtleness */
+  border-radius: 8px; /* Rounded borders */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px;
+  transition: transform 0.2s; /* Smooth hover effect */
+  display: flex;
+  flex-direction: column;
+}
+
+.project-cards:hover {
+  transform: translateY(-5px); /* Slight lift on hover for cards */
+}
+
+.img-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Ensure larger images don't break layout */
+  height: 210px;
+  max-width: 210px;
+  border-radius: 8px;
+  margin: 15px auto;
+}
+
+img {
+  /* Ensure images scale */
+
+  max-width: 100%; /* This ensures the image scales down if it's too wide. */
+  max-height: 100%; /* This ensures the image scales down if it's too tall. */
+  display: block; /* Removes any line-height issues. */
+}
+
+.title,
+.project-title {
+  text-align: center;
+}
+
+.länkar,
+.button-class {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #dfa6a0;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 14px;
+}
+
+.länkar:hover,
+.button-class:hover {
+  background-color: #c8847d;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  font-weight: 700;
+}
+
+.FaIcons {
+  margin-left: 10px;
+}
+
+.description-text {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .description-text {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .img-style:hover {
+    opacity: 0.9;
+    transition: opacity 0.3s;
+    transform: scale(1.5);
+  }
+}
