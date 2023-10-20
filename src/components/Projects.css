@@ -12,7 +12,7 @@ body {
 
 .innercard {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   justify-content: center;
   align-content: start;
   grid-gap: 25px;
