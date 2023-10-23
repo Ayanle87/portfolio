@@ -16,7 +16,6 @@
   border-radius: 50%;
   border-top: 2px solid black;
   border-right: 3px dashed rgb(26, 25, 25);
-  /* z-index: -1; */
 }
 
 .about-short-info {
@@ -79,15 +78,3 @@
     font-size: 30px;
   }
 }
-
-/* Desktop */
-/* @media screen and (min-width: 1025px) {
-  .about-container {
-    margin-left: 100px;
-    margin-top: 50px;
-  }
-  .about-profile-pic {
-    height: 370px;
-    width: 370px;
-  }
-} */

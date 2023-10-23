@@ -7,7 +7,7 @@ function LandingPage() {
   const rolling = [
     "Frontend enthusiast",
     "Tech explorer",
-    "Enjoy mastering skills",
+    "Love to learn",
     "Teamplayer",
   ];
 

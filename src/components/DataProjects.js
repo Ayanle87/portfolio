@@ -5,7 +5,7 @@ export default [
     description:
       "Group project with react for products on a map where you can shop items close to buy.",
     img: "./images/closebuy.png",
-    link: "url bla bla bla",
+    link: "https://fullstack-project-l2st.onrender.com/",
     viewcode: "https://github.com/Ayanle87/fullstack-projekt",
   },
   {
@@ -32,7 +32,7 @@ export default [
     description:
       "Groupproject in Vue, we've build an excersize app with functions to where nearest gym is located, excersizes you can perform, a web shop.",
     img: "./images/FitSolutions.png",
-    link: "",
+    link: "#",
     viewcode: "https://github.com/Ayanle87/Fitsolutions",
   },
   {
@@ -40,16 +40,16 @@ export default [
     title: "MemeGenerator",
     description: "A project i've build as an assignment from Scrimba.com",
     img: "./images/memegenerator.png",
-    link: "url bla bla bla",
-    viewcode: "",
+    link: "https://ayanle87.github.io/memegenerator/",
+    viewcode: "https://github.com/Ayanle87/meme-generator",
   },
   {
     id: "6",
     title: "TravelJourney",
     description: "A project i've build as an assignment from Scrimba.com",
     img: "./images/traveljournal.png",
-    link: "url bla bla bla",
-    viewcode: "",
+    link: "#",
+    viewcode: "https://github.com/Ayanle87/Travel-journal",
   },
 
   {
@@ -66,7 +66,7 @@ export default [
     description:
       "Group project with native Javascript, with an API for match schuldes, group games and knockouts",
     img: "./images/fifa22.png",
-    link: "",
-    viewcode: "",
+    link: "https://fifa-ten.vercel.app/",
+    viewcode: "https://github.com/Ayanle87/Fifa22",
   },
 ];

@@ -20,11 +20,11 @@ body {
 }
 
 .project-cards {
-  border: 2px solid #e0e0e0; /* Lighter border for subtleness */
-  border-radius: 8px; /* Rounded borders */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   padding: 10px 20px;
-  transition: transform 0.2s; /* Smooth hover effect */
+  transition: transform 0.2s;
   display: flex;
   flex-direction: column;
 }
@@ -45,11 +45,9 @@ body {
 }
 
 img {
-  /* Ensure images scale */
-
-  max-width: 100%; /* This ensures the image scales down if it's too wide. */
-  max-height: 100%; /* This ensures the image scales down if it's too tall. */
-  display: block; /* Removes any line-height issues. */
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
 }
 
 .title,
