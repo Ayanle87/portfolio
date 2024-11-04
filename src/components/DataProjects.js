@@ -19,18 +19,18 @@ export default [
   },
   {
     id: "3",
-    title: "Fake store app",
+    title: "EazyTrailer",
     description:
-      "My first vue app, with api from fakestoreapi. Its a clothing shop.",
-    img: "./images/fakestore.png",
-    link: "https://my-project-delta-henna.vercel.app/#/",
-    viewcode: "https://github.com/Ayanle87/my-project",
+      "My thesis project, in which i've build a booking app for the neighborhood trailer",
+    img: "./images/EazyTrailer.png",
+    link: "https://trailer-booking.vercel.app",
+    viewcode: "https://github.com/Ayanle87/Trailer-booking",
   },
   {
     id: "4",
     title: "FitSolutions",
     description:
-      "Groupproject in Vue, we've build an excersize app with functions to where nearest gym is located, excersizes you can perform, a web shop.",
+      "Group project in Vue, we've build an excersize app with functions to where nearest gym is located, excersizes you can perform, a web shop.",
     img: "./images/FitSolutions.png",
     link: "#",
     viewcode: "https://github.com/Ayanle87/Fitsolutions",
@@ -45,11 +45,11 @@ export default [
   },
   {
     id: "6",
-    title: "TravelJourney",
-    description: "A project i've build as an assignment from Scrimba.com",
-    img: "./images/traveljournal.png",
-    link: "#",
-    viewcode: "https://github.com/Ayanle87/Travel-journal",
+    title: "Your Todos",
+    description: "A project i've build to learn Typescript",
+    img: "./images/Todo.png",
+    link: "https://mytodoproject.vercel.app/",
+    viewcode: "https://github.com/Ayanle87/Todo-App",
   },
 
   {
@@ -68,5 +68,14 @@ export default [
     img: "./images/fifa22.png",
     link: "https://fifa-ten.vercel.app/",
     viewcode: "https://github.com/Ayanle87/Fifa22",
+  },
+  {
+    id: "9",
+    title: "Dice game",
+    description:
+      "A dice game which i've made with react",
+    img: "./images/dice.png",
+    link: "https://dice-game-sigma-lyart.vercel.app/",
+    viewcode: "https://github.com/Ayanle87/Dice-game",
   },
 ];
